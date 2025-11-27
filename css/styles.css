@@ -62,7 +62,7 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  --bs-body-bg: #ffffff;
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
@@ -10878,7 +10878,7 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #212529;
+  background-color: white;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -10946,7 +10946,7 @@ header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
   background-image: url("../assets/img/about/perrito9.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11314,3 +11314,19 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+body {
+    background-color: #ffffff !important;
+}
+
+/* Quitar fondo del header */
+header.masthead {
+    background-color: #ffffff !important;
+}
+
+/* Forzar fondos blancos en zonas que usan bg-light */
+.bg-light {
+    background-color: #ffffff !important;
+}
+
+
