@@ -10907,6 +10907,32 @@ p {
   color: #ffc800;
 }
 
+/* --- FIX NAVBAR COLORS --- */
+
+/* Color normal del texto */
+#mainNav .navbar-nav .nav-link {
+    color: #000 !important; /* o el color que quieras */
+}
+
+/* Color en hover */
+#mainNav .navbar-nav .nav-link:hover {
+    color: #f9e0fe !important;
+}
+
+/* Color cuando está activo */
+#mainNav .navbar-nav .nav-link.active {
+    color: #372653 !important;
+}
+
+/* Quita el azul feo del foco */
+#mainNav .navbar-nav .nav-link:focus,
+#mainNav .navbar-nav .nav-link:active {
+    color: #372653 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 1.5rem;
@@ -11112,6 +11138,29 @@ header.masthead .masthead-heading {
     background-color: #000; /* opcional: relleno elegante detrás */
 }
 
+
+
+                .boton_color {
+                    background-color: #f9e0fe;
+                    color: #372653; 
+                }
+
+                .boton_color:hover {
+                    background-color: #eeb2fa !important;
+                    color: #372653 !important;
+                }
+
+                .morado {
+                    color: #372653 !important; /* círculo */
+                }
+
+                .claro {
+                    color: #f9e0fe !important; /* el color pastel del carrito */
+                }
+
+                .fondo {
+                    background-color: #f9e0fe !important; /* el color pastel del carrito */
+                }
 
 .timeline > li {
   position: relative;
